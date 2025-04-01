@@ -266,6 +266,14 @@ h1{
 .career{
     padding: 10rem 0 0;
     position: relative;
+    background-image: url(../images/green.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 80% auto;
+    @include pc{
+        background-size: auto auto;
+
+    }
 
     @include pc{
         padding: 200px 0 0;

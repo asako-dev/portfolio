@@ -493,6 +493,15 @@ h1 span {
 .career {
   padding: 10rem 0 0;
   position: relative;
+  background-image: url(../images/green.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 80% auto;
+}
+@media (min-width: 960px) {
+  .career {
+    background-size: auto auto;
+  }
 }
 @media (min-width: 960px) {
   .career {
