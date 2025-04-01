@@ -1,0 +1,48 @@
+@use "base"as base;
+
+// ブレイクポイント
+@mixin pc {
+    @media (min-width: 960px) {
+        @content;
+    }
+}
+
+// コンテンツここから
+
+.box {
+    width: 80%;
+    height: 5rem;
+    background-color: yellow;
+
+    @include pc {
+        width: 20%;
+    }
+}
+
+.swiper {
+    width: 80%;
+    height: 300px;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.swiper-button-prev:after {
+    color: red;
+}
+
+#dl_btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+
+    dt {
+        background: yellow;
+    }
+
+    dd {
+        background: orange;
+    }
+}
