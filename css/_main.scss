@@ -69,14 +69,9 @@ h1 {
   }
 }
 
-.mv_each {
-  width: 70%;
-  background: linear-gradient(to top,
-      rgba(255, 255, 255, 0.5) 10%,
-      rgba(255, 255, 255, 0) 100%);
+.white {
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 1.5rem 1.5rem 1.5rem 0;
-
-
 
   @include pc {
     background-color: rgba(255, 255, 255, 0.5);
@@ -84,6 +79,17 @@ h1 {
     padding-top: 20px;
   }
 
+}
+
+.white.white_left {
+  @include pc {
+    padding-left: 20px;
+  }
+
+}
+
+.mv_each {
+  width: 70%;
 
   h2 {
     font-size: 1.8rem;

@@ -234,17 +234,26 @@ h1 {
   }
 }
 
-.mv_each {
-  width: 70%;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0) 100%);
+.white {
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 1.5rem 1.5rem 1.5rem 0;
 }
 @media (min-width: 980px) {
-  .mv_each {
+  .white {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 0;
     padding-top: 20px;
   }
+}
+
+@media (min-width: 980px) {
+  .white.white_left {
+    padding-left: 20px;
+  }
+}
+
+.mv_each {
+  width: 70%;
 }
 .mv_each h2 {
   font-size: 1.8rem;
