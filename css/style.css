@@ -208,7 +208,7 @@ body {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 3.8rem;
+  font-size: 4rem;
   line-height: 1.5;
   margin-bottom: 4rem;
   margin-right: -50%;
@@ -236,7 +236,7 @@ h1 {
 
 .mv_each {
   width: 70%;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.3) 10%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0) 100%);
 }
 @media (min-width: 980px) {
   .mv_each {
@@ -245,13 +245,13 @@ h1 {
   }
 }
 .mv_each h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 .mv_each p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.8;
   padding-bottom: 3rem;
 }
