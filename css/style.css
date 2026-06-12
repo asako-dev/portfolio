@@ -237,10 +237,12 @@ h1 {
 .mv_each {
   width: 70%;
   background: linear-gradient(to top, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0) 100%);
+  padding: 1.5rem 1.5rem 1.5rem 0;
 }
 @media (min-width: 980px) {
   .mv_each {
     background-color: rgba(255, 255, 255, 0.5);
+    padding: 0;
     padding-top: 20px;
   }
 }
@@ -253,7 +255,7 @@ h1 {
 .mv_each p {
   font-size: 1.4rem;
   line-height: 1.8;
-  padding-bottom: 3rem;
+  padding: 0;
 }
 @media (min-width: 980px) {
   .mv_each p {
