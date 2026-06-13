@@ -385,7 +385,7 @@ h1 {
 }
 @media (min-width: 980px) {
   .skill-group li {
-    width: 31%;
+    width: 30%;
     padding: 30px;
   }
 }
